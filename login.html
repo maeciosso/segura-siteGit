@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="img/sheild.png">
+    <link rel="stylesheet" href="css/form.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+</head>
+<body>
+  <nav>
+    <img src="img/menu.svg" alt="menu" id="menu">
+</nav>
+
+<div class="none hide" id="none">
+    <ul>
+        <li>
+            <a href="index.html" class="link">Home</a></li>
+            <hr>
+        <li>
+            <div class="dropdown">
+            <p onclick="myFunction()" class="dropbtn link">Pessoas &#8595;</p>
+            <div id="myDropdown" class="dropdown-content hide">
+              <a href="">&#8594;Plano basico</a>
+              <hr>
+              <a href="">&#8594;Plano familia</a>
+              <hr>
+              <a href="">&#8594;localizador segura</a>
+            </div>
+          </div>
+        </li>
+        <hr>
+        <li><a href="" class="link">Empresas</a></li>
+        <hr>
+        <li><a href="planos.html" class="link">Planos</a></li>
+        <hr>
+        <li><a href="docs.html" class="link">Docs</a></li>
+        <hr>
+        <li><a href="" class="link"></a></li>
+    </ul>
+</div>
+
+    <main style="display: flex">
+
+        <div class="hide" id="bread1"><p>coloque seu nome e senha</p></div>
+        <div class="hide" id="bread2"><p>coloque sua senha</p></div>
+        <div class="hide" id="bread3"><p>coloque seu nome/e-mail</p></div>
+        <div class="hide" id="bread4"><p>bem vindo</p></div>
+        <div class="hide" id="bread5"><p>conta criada</p></div>
+        <div class="hide" id="bread6"><p>coloque seu e-mail e senha</p></div>
+
+        <form class="" id="form" autocomplete="on" name="form">
+          <h1>Sign in</h1>
+          <hr>
+          <br>
+          <input required id="nome" name="form" type="text" placeholder="Seu nome">
+          <br><br>
+          <input required minlength="8" id="senha" name="form" type="password" placeholder="Sua senha">
+          <button id="btn" type="button" onclick="visibilidade()">
+            <img src="img/eye.svg" class="eye">
+          </button>
+          <br><br>
+          <button type="button" onclick="verificar()">Logar</button>
+          <button id="up" type="button">Sign up</button>
+          <br><br>
+          <hr>
+          <br>
+          <p>esqueceu sua senha? <a href="">clique aqui</a></p>
+          <br>
+        </form>
+        <br><br>
+        
+        <form class="hide" id="form2">
+          <h1>Sign up</h1>
+          <hr>
+          <br>
+          <input required autocomplete="on" id="email" name="form" type="email" placeholder="Seu e-mail">
+          <br><br>
+          <input required minlength="8" id="senha2" name="form" type="password" placeholder="Sua senha">
+          <button id="btn" type="button" onclick="visibilidade2()">
+            <img src="img/eye.svg" class="eye">
+          </button>
+          <br><br>
+          <button type="button" onclick="verificarEmail()">Criar</button>
+          <button id="in" type="button">Sign in</button>
+          <br><br><br>
+          
+          <br>
+        </form>
+      </main>
+
+    <script src="js/index.js"></script>
+    <script src="js/form.js"></script>
+</body>
+</html>

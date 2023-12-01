@@ -1,0 +1,207 @@
+@media screen and (max-width: 1920px){
+    span{margin-left: 50px}
+
+    #wave1{z-index: 0; position: absolute; left: 660px;}
+    #wave2{position: absolute; top: 470px; left: -1px; width: 1903px;}
+    #wave3{position: absolute; top: 560px; left: -1px; width: 1903px;}
+    #comp{width: 200px;}
+    #compTexto{position: relative; top: 50px;}
+    #inter{margin-left: 5.5rem; height: 60px;}
+    #p1{margin-top: 298px;}
+    #p2{margin-top: 140px;}
+    #p3{margin-top: 83px;}
+    #planos{display: flex; margin: auto;}
+    #planoB{width: 33.33%; height: 600px; text-align: center; background-color: #fff;}
+    #planoF{width: 33.33%; height: 600px; text-align: center; background-color: #b9b9b9;}
+    #planoP{width: 33.33%; height: 600px; text-align: center; background-color: #fff;}
+
+
+
+    .cardText{font-size: 19px;}
+    .secure{margin-left: 5rem; width: fit-content; margin: 50px 10px 30px 1rem;}
+    .securePlus{width: 80%; margin-left: 5rem; line-height: 22px; font-size: 22px;}
+
+}
+
+@media screen and (max-width: 1440px){
+    span{margin-left: 50px}
+
+    #wave1{z-index: 0; position: absolute; left: 660px;}
+    #wave2{position: absolute; top: 530px; left: -1px; width: 1441px;}
+    #wave3{position: absolute; top: 560px; left: -1px; width: 1441px;}
+    #comp{width: 200px;}
+    #compTexto{position: relative; top: 50px;}
+    #inter{margin-left: 5.5rem; height: 60px;}
+    #p1{margin-top: 324px;}
+    #p2{margin-top: 140px;}
+    #p3{margin-top: 83px;}
+
+    .cardText{font-size: 19px;}
+    .secure{margin-left: 5rem; width: fit-content; margin: 50px 10px 30px 1rem;}
+    .securePlus{width: 80%; margin-left: 5rem; line-height: 22px; font-size: 22px;}
+
+}
+
+@media screen and (max-width: 1024px){
+    #wave1{z-index: 0; position: absolute; left: 530px;}
+    #wave2{position: absolute; top: 580px; left: -1px; width: 1025px;}
+    #wave3{position: absolute; top: 590px; left: -1px; width: 1025px;}
+    #comp{width: 200px;}
+    #compTexto{position: relative; top: 30px;}
+    #inter{margin-left: 5.5rem; height: 60px;}
+    #p1{margin-top: 298px;}
+    #p2{margin-top: 84px;}
+    #p3{margin-top: 3px;}
+    #planos{display: flex; margin: auto;}
+    #planoB{width: 33.33%; height: 600px; text-align: center; background-color: #fff;}
+    #planoF{width: 33.33%; height: 600px; text-align: center; background-color: #b9b9b9;}
+    #planoP{width: 33.33%; height: 600px; text-align: center; background-color: #fff;}
+    #planoE{width: 100%;margin-left: 0px;}
+    #pequena{width: 33.33%;; height: 650px;}
+    #media{width: 33.33%; height: 650px;}
+    #grande{width: 33.33%; height: 650px;}
+    #assinar{margin-top: 40px;}
+
+    .cardText{font-size: 17px;}
+    .btnDiv{width: 90%; margin-left: auto; margin-right: auto;}
+    .btn{font-size: 20px;width: 49%;}
+    .secure{margin-left: 5rem; width: fit-content; margin: 50px 10px 30px 1rem; font-size: 51px;}
+    .securePlus{width: 80%; margin-left: 5rem; line-height: 22px; font-size: 18px;}
+}
+
+@media screen and (max-width: 768px){
+    footer{height: auto;}
+    #wave1{z-index: 0; position: absolute; left: 350px;}
+    #wave2{position: absolute; top: 600px; left: -1px; width: 769px;}
+    #wave3{position: absolute; top: 610px; left: -1px; width: 769px;}
+    #comp{width: 200px; margin-left: .5rem;}
+    #compTexto{position: relative; top: 20px;left: 0px; font-size: 16px; width: 65%;}
+    #propaganda{width: 450px;}
+    #blob{width: 250px;}
+    #inter{margin-left: 3rem; font-size: 35px; height: 70px;}
+    #planos{display: block;margin: auto; width: 100%;}
+    #planoB{width: 70%; height: 600px; text-align: center; background-color: #fff;}
+    #planoF{width: 70%; height: 600px; text-align: center; background-color: #b9b9b9; margin-top: 30px;}
+    #planoP{width: 70%; height: 650px; text-align: center; background-color: #fff; margin-top: 30px;}
+    #p1{margin-top: 298px;}
+    #p2{margin-top: 30px;}
+    #p3{margin-top: 0px;}
+    #div{height: auto;}
+    #div2{height: auto;}
+    #planoB table,#planoF table,#planoP table{display: block;}
+    #planoE{display: block;} 
+    #pequena{width: 70%;; height: 650px; margin: auto;}
+    #media{width: 70%; height: 650px; margin-top: 20px; margin: auto;}
+    #grande{width: 70%; height: 650px; margin-top: 20px; margin: auto;}
+
+    .cardText{font-size: 15px;}
+    .btnDiv{width: 90%; margin-left: auto; margin-right: auto;}
+    .btn{font-size: 20px;width: 49%;}
+    .secure{margin-left: 5rem; width: fit-content; margin: 50px 10px 30px 1rem; font-size: 34px;}
+    .securePlus{width: 85%; margin-left: 3rem; line-height: 22px; font-size: 18px;}
+    .item2, .item4{display: none;}
+    .item3{grid-column-start: 2; grid-column-end: 3;}
+    .item1{grid-column-start: 1; grid-column-end: 2;}
+    .grid{grid-template-columns: 1fr 1fr;}
+}
+
+
+@media screen and (max-width: 425px){
+    th{font-size: large;}
+    span{font-size: 16px;margin-left: auto; margin-right: auto;}
+    table{display: none;}
+    footer{height: fit-content;}
+    #wave1{display: none;}
+    #wave2{display: none;}
+    #wave3{display: none;}
+    #divTexto{height: 500px;}
+    #comp{width: 200px; margin-left: 6rem;}
+    #compTexto{position: relative; top: 0px;left: -10px; columns: 2; width: 90%;}
+    #propaganda{width: 450px; background-color: transparent;}
+    #propaganda2{width: 450px; background-color: transparent;}
+    #blob{display: none;}
+    #div{height: max-content;}
+    #inter{margin-left: 4rem; height: 60px;}
+    #planos{display: block;margin: auto; width: 100%;}
+    #planoB{width: 100%; height: 600px; text-align: center; background-color: #fff;}
+    #planoF{width: 100%; height: 600px; text-align: center; background-color: #b9b9b9; margin-top: 30px;}
+    #planoP{width: 100%; height: 650px; text-align: center; background-color: #fff; margin-top: 30px;}
+    #p1{margin-top: 298px;}
+    #p2{margin-top: 90px;}
+    #p3{margin-top: 90px;}
+    #div{height: auto;}
+    .divFooter{width: 100%;}
+    #planoE{display: block;} 
+    #pequena{width: 100%;; height: 650px;}
+    #media{width: 100%; height: 650px; margin-top: 20px;}
+    #grande{width: 100%; height: 650px; margin-top: 20px;}
+    #pequena table{display: block}
+    #media table{display: block}
+    #grande table{display: block}
+
+    .grid{display: none;}
+    .cardText{font-size: 15px;}
+    .btn{font-size: 20px;width: 49%;}
+    .btnDiv{width: 90%; margin-left: auto; margin-right: auto;}
+    .secure{margin-left: 5rem; width: fit-content; margin: 50px 10px 30px 1rem; font-size: 40px;}
+    .securePlus{width: 80%; margin-left: 2rem; line-height: 22px; font-size: 18px;}
+    .tFooter{display: block; width: 100%;}
+    .tFooter th{font-size: medium;}
+    .tFooter td{font-size: small;}
+}
+
+@media screen and (max-width: 375px){
+    th{font-size: large;}
+    span{font-size: 16px;margin-left: auto; margin-right: auto;}
+    table{display: none;}
+    #wave1{display: none;}
+    #wave2{display: none;}
+    #wave3{display: none;}
+    #divTexto{height: 630px;}
+    #comp{width: 200px; margin-left: 4.4rem;}
+    #compTexto{position: relative; top: 0px; left: -15px; columns: 2; width: 90%;}
+    #propaganda{width: 450px; background-color: transparent;}
+    #propaganda2{width: 450px; background-color: transparent;}
+    #blob{display: none;}
+    #div{height: max-content;}
+    #inter{margin-left: 3.5rem; height: 60px;}
+
+    .cardText{font-size: 13px;}
+    .btn{font-size: 20px;width: 49%;}
+    .btnDiv{width: 90%; margin-left: auto; margin-right: auto;}
+    .secure{margin-left: 5rem; width: fit-content; margin: 50px 10px 30px 1rem; font-size: 35px;}
+    .securePlus{width: 80%; margin-left: 2rem; line-height: 22px; font-size: 18px;}
+    .tFooter{display: block; width: 100%;}
+    .tFooter th{font-size: medium;}
+    .tFooter td{font-size: small;}
+}
+
+@media screen and (max-width: 320px){
+    th{font-size: large;}
+    span{font-size: 16px;margin-left: auto; margin-right: auto;}
+    table{display: none;}
+    #wave1{display: none;}
+    #wave2{display: none;}
+    #wave3{display: none;}
+    #divTexto{height: 700px;}
+    #comp{width: 200px; margin-left: 3rem;}
+    #compTexto{position: relative; top: 0px;left: -7px; columns: 2; width: 90%;}
+    #propaganda{width: 450px; background-color: transparent;}
+    #propaganda2{width: 450px; background-color: transparent;}
+    #blob{display: none;}
+    #div{height: max-content}
+    #divFooter{margin: 0; width: 100%;}
+    #inter{margin-left: 3rem; font-size: 30px; height: 50px;} 
+    #p1{margin-top: 288px;}
+    #p2{margin-top: 50px;}
+    #p3{margin-top: 20px;}
+
+    .cardText{font-size: 15px;}
+    .btn{font-size: 20px;width: 49%;}
+    .btnDiv{width: 90%; margin-left: auto; margin-right: auto;}
+    .secure{margin-left: 2rem; width: fit-content; margin: 50px 10px 30px 1rem; font-size: 30px;}
+    .securePlus{width: 80%; margin-left: 2rem; line-height: 22px; font-size: 18px;}
+    .tFooter{display: block; width: 100%;}
+    .tFooter th{font-size: medium;}
+    .tFooter td{font-size: small;}
+}

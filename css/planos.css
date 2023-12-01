@@ -1,0 +1,75 @@
+*{margin: 0; padding: 0;}
+nav{
+    background: #031927;
+}
+hr{
+    border: 1px solid black;
+}
+table{
+    width: 90%;
+    outline: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+tr{
+    outline: 1px solid black;
+    text-align: center;
+    width: 25%;
+}
+th{
+    font-size: 40px;
+    outline: 1px solid black;
+}
+td{
+    font-size: 28px;
+    outline: 1px solid black;
+}
+tr:nth-child(2n){
+    background-color: #cccccc;
+}
+
+
+#login:hover{
+    background-color: rgb(255, 217, 1);
+}
+#login a{
+    text-decoration: none;
+    color: black;
+}
+#menu{
+    width: 50px;
+    margin-left: .5rem;
+}
+#myDropdown{
+    background-color: #cccccc2d;
+} #myDropdown a{
+    font-size: 22px;
+    color: #000;
+    text-decoration: none;
+}
+#login{
+    width: 70px;
+    font-size: 18px;
+    border-radius: 20px;
+    float: right;
+    margin: 15px 15px 0 0;
+    background-color: #6F8AB7;
+}
+
+
+
+.link{
+    text-decoration: none;
+    color: black;
+    margin-left: .5rem;
+    font-size: 40px;
+}.none{
+    width: 400px;
+    height: 100%;
+    background: #031927;
+    position: absolute;
+    z-index: 1;
+}
+.hide{
+    display: none;
+}
