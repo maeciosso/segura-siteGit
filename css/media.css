@@ -10,12 +10,16 @@
     #p1{margin-top: 298px;}
     #p2{margin-top: 140px;}
     #p3{margin-top: 83px;}
-    #planos{display: flex; margin: auto;}
+    #planos{display: flex; margin: auto; width: 90%;}
     #planoB{width: 33.33%; height: 600px; text-align: center; background-color: #fff;}
     #planoF{width: 33.33%; height: 600px; text-align: center; background-color: #b9b9b9;}
     #planoP{width: 33.33%; height: 600px; text-align: center; background-color: #fff;}
-
-
+    #planoE{width: 90%;margin: auto}
+    #pequena{width: 33.33%;; height: 650px;}
+    #media{width: 33.33%; height: 650px;}
+    #grande{width: 33.33%; height: 650px;}
+    #assinar{margin-top: 40px;}
+    #div2{height: fit-content}
 
     .cardText{font-size: 19px;}
     .secure{margin-left: 5rem; width: fit-content; margin: 50px 10px 30px 1rem;}
