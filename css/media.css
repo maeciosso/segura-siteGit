@@ -39,6 +39,7 @@
     #p1{margin-top: 308px;}
     #p2{margin-top: 98px;}
     #p3{margin-top: 40px;}
+    
 
     .cardText{font-size: 19px;}
     .secure{margin-left: 5rem; width: fit-content; margin: 50px 10px 30px 1rem;}
@@ -53,12 +54,13 @@
     #wave2{position: absolute; top: 530px; left: -1px; width: 1280px;}
     #wave3{position: absolute; top: 600px; left: -1px; width: 1280px;}
     #comp{width: 200px;}
-    #compTexto{position: relative; top: 50px;}
+    #compTexto{position: relative; top: 35px;}
     #inter{margin-left: 5.5rem; height: 60px;}
     #p1{margin-top: 308px;}
     #p2{margin-top: 98px;}
     #p3{margin-top: 40px;}
     #btnDiv{width: fit-content;}
+    #bread1, #bread2, #bread3, #bread4, #bread5, #bread6{left: 38.5vw; top: 35vh}
 
     .cardText{font-size: 19px;}
     .btn{width: 49%;}
@@ -86,6 +88,7 @@
     #media{width: 33.33%; height: 650px;}
     #grande{width: 33.33%; height: 650px;}
     #assinar{margin-top: 40px;}
+    #bread1, #bread2, #bread3, #bread4, #bread5, #bread6{left: 35.5vw; top: 35vh}
 
     .cardText{font-size: 17px;}
     .btnDiv{width: 90%; margin-left: auto; margin-right: auto;}
@@ -118,6 +121,7 @@
     #pequena{width: 70%;; height: 650px; margin: auto;}
     #media{width: 70%; height: 650px; margin-top: 20px; margin: auto;}
     #grande{width: 70%; height: 650px; margin-top: 20px; margin: auto;}
+    #bread1, #bread2, #bread3, #bread4, #bread5, #bread6{left: 30.5vw; top: 35vh}
 
     .cardText{font-size: 15px;}
     .btnDiv{width: 90%; margin-left: auto; margin-right: auto;}
@@ -163,6 +167,7 @@
     #pequena table{display: block}
     #media table{display: block}
     #grande table{display: block}
+    #bread1, #bread2, #bread3, #bread4, #bread5, #bread6{left: 15.5vw; top: 35vh}
 
     .grid{display: none;}
     .cardText{font-size: 15px;}
@@ -190,6 +195,7 @@
     #blob{display: none;}
     #div{height: max-content;}
     #inter{margin-left: 3.5rem; height: 60px;}
+    #bread1, #bread2, #bread3, #bread4, #bread5, #bread6{left: 10.5vw; top: 35vh}
 
     .cardText{font-size: 13px;}
     .btn{font-size: 20px;width: 49%;}
@@ -220,6 +226,7 @@
     #p1{margin-top: 288px;}
     #p2{margin-top: 50px;}
     #p3{margin-top: 20px;}
+    #bread1, #bread2, #bread3, #bread4, #bread5, #bread6{left: 3.5vw; top: 35vh}
 
     .cardText{font-size: 15px;}
     .btn{font-size: 20px;width: 49%;}
