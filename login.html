@@ -44,7 +44,7 @@
         <div class="hide" id="bread5"><p>conta criada</p></div>
         <div class="hide" id="bread6"><p>coloque seu e-mail e senha</p></div>
 
-        <form class="" id="form" autocomplete="on" name="form">
+        <form class="" id="form" autocomplete="on" name="form" action="validaçao.php" method="post">
           <h1>Sign in</h1>
           <hr>
           <br>
@@ -55,7 +55,7 @@
             <img src="img/eye.svg" class="eye">
           </button>
           <br><br>
-          <button type="button" onclick="verificar()">Logar</button>
+          <button type="button" >Logar</button>
           <button id="up" type="button">Sign up</button>
           <br><br>
           <hr>
@@ -71,12 +71,12 @@
           <br>
           <input required autocomplete="on" id="email" name="form" type="email" placeholder="Seu e-mail">
           <br><br>
-          <input required minlength="8" id="senha2" name="form" type="password" placeholder="Sua senha">
+          <input required min="4" id="senha2" name="form" type="password" placeholder="Sua senha">
           <button id="btn" type="button" onclick="visibilidade2()">
             <img src="img/eye.svg" class="eye">
           </button>
           <br><br>
-          <button type="button" onclick="verificarEmail()">Criar</button>
+          <button type="button" >Criar</button>
           <button id="in" type="button">Sign in</button>
           <br><br><br>
           
