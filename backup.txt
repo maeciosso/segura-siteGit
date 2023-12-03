@@ -1,0 +1,6 @@
+#cvc{
+    margin-left: 1rem;
+    width: 60px;
+    font-size: 25px;
+    border: 1px solid black;
+}

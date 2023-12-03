@@ -32,3 +32,23 @@ pessoa.addEventListener("click", () =>{
 function myFunction(){
     document.getElementById("myDropdown").classList.toggle("show")
 }
+
+//botoes comprar
+document.getElementById("btnB").addEventListener('click', () => {
+    document.getElementById("comprar1").classList.toggle("hide")
+})
+document.getElementById("btnF").addEventListener('click', () => {
+    document.getElementById("comprar2").classList.toggle("hide")
+})
+document.getElementById("btnP").addEventListener('click', () => {
+    document.getElementById("comprar3").classList.toggle("hide")
+})
+document.getElementById("close1").addEventListener('click', () => {
+    document.getElementById("comprar1").classList.toggle("hide")
+})
+document.getElementById("close2").addEventListener('click', () => {
+    document.getElementById("comprar2").classList.toggle("hide")
+})
+document.getElementById("close3").addEventListener('click', () => {
+    document.getElementById("comprar3").classList.toggle("hide")
+})
