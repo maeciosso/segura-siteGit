@@ -4,6 +4,8 @@ nav{
 }
 section{
     margin-top: 50px;
+    display: flex;
+    gap: 30px;
 }
 hr{
     border: 1px solid black;
@@ -124,8 +126,8 @@ select{
     height:40px;
 }
 .card{
-    width: 90%;
-    height: 300px;
+    width: 20%;
+    height: 500px;
     background: #fff;
     margin: auto;
     border-radius: 10px;
@@ -140,19 +142,10 @@ select{
 } .cardText{
     width: 80%;
     margin: auto;
-}
-.grid{
-    width: 90%;
-    display: grid;  
-    column-gap: 0;
-    gap: 40px;
-    grid-template-columns: .5fr 1fr;
+} .card > p{
+    width: 80%;
     margin: auto;
-}
-.item1 , .item2, .item3, .item4{
-    overflow: auto;
-    width: fit-content;
-    height: fit-content;
+    font-size: large;
 }
 .secure{
     width: fit-content;
