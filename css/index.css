@@ -363,3 +363,7 @@ select{
     display: flex;
     width: 100%;
 }
+#cvc{width: 70px;}
+#comprar3 > form > input{
+    margin-left: 2rem;
+}
