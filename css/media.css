@@ -1,4 +1,4 @@
-@media screen and (max-width: 1920px){
+@media screen and (min-width: 1920px){
     span{margin-left: 50px}
 
     #wave1{z-index: 0; position: absolute; left: 660px;}
@@ -15,9 +15,9 @@
     #planoF{width: 33.33%; height: 600px; text-align: center; background-color: #b9b9b9;}
     #planoP{width: 33.33%; height: 600px; text-align: center; background-color: #fff;}
     #planoE{width: 90%;margin: auto}
-    #pequena{width: 33.33%;; height: 650px;}
-    #media{width: 33.33%; height: 650px;}
-    #grande{width: 33.33%; height: 650px;}
+    #pequena{width: 33.33%;; height: 550px;}
+    #media{width: 33.33%; height: 550px;}
+    #grande{width: 33.33%; height: 550px;}
     #assinar{margin-top: 40px;}
     #div{height: fit-content}
     #div2{height: fit-content}
@@ -41,6 +41,7 @@
     #p1{margin-top: 308px;}
     #p2{margin-top: 98px;}
     #p3{margin-top: 40px;}
+    #planos{margin-left: 130px;}
     
     .card{width: 25%;}
     .secure{margin-left: 5rem; width: fit-content; margin: 50px 10px 30px 1rem;}
@@ -68,7 +69,6 @@
     .btn{width: 49%;}
     .secure{margin-left: 5rem; width: fit-content; margin: 50px 10px 30px 1rem;}
     .securePlus{width: 80%; margin-left: 5rem; line-height: 22px; font-size: 22px;}
-
 }
 
 @media screen and (max-width: 1024px){
@@ -78,9 +78,11 @@
     #comp{width: 200px;}
     #compTexto{position: relative; top: 30px;}
     #inter{margin-left: 5.5rem; height: 60px;}
-    #p1{margin-top: 320px;}
+    #p1{margin-top: 295px;}
     #p2{margin-top: 84px;}
     #p3{margin: 0;}
+    #btnPe{margin-top: 30px;}
+    #btnM{margin-top: 30px;}
     #planos{display: flex; margin: auto;}
     #planoB{width: 33.33%; height: 600px; text-align: center; background-color: #fff;}
     #planoF{width: 33.33%; height: 600px; text-align: center; background-color: #b9b9b9;}
@@ -111,10 +113,10 @@
     #propaganda{width: 450px;}
     #blob{width: 250px;}
     #inter{margin-left: 3rem; font-size: 35px; height: 70px;}
-    #planos{display: block;margin-left: 110px; width: 100%;}
-    #planoB{width: 70%; height: 600px; text-align: center; background-color: #fff;}
-    #planoF{width: 70%; height: 600px; text-align: center; background-color: #b9b9b9; margin-top: 30px;}
-    #planoP{width: 70%; height: 650px; text-align: center; background-color: #fff; margin-top: 30px;}
+    #planos{display: block;margin-left: 110px; width: 550px}
+    #planoB{width: 90%; height: 600px; text-align: center; background-color: #fff;}
+    #planoF{width: 90%; height: 600px; text-align: center; background-color: #b9b9b9; margin-top: 30px;}
+    #planoP{width: 90%; height: 650px; text-align: center; background-color: #fff; margin-top: 30px;}
     #p1{margin-top: 298px;}
     #p2{margin-top: 30px;}
     #p3{margin-top: 0px;}
@@ -174,6 +176,7 @@
     #bread1, #bread2, #bread3, #bread4, #bread5, #bread6{left: 15.5vw; top: 35vh}
 
     .grid{display: none;}
+    .card{width: 90%;}
     .cardText{font-size: 15px;}
     .btn{font-size: 20px;width: 49%;}
     .btnDiv{width: 90%; margin-left: auto; margin-right: auto;}

@@ -5,10 +5,11 @@ function verificar(){
     if(nome === "" && senha === ""){breadCrumb1(); setTimeout(() => {document.getElementById("bread1").classList.toggle("hide")}, 2000); setTimeout(() => {document.getElementById('nome').value=''; document.getElementById('senha').value='';},)} 
     if(nome !== "" && senha == ""){breadCrumb2(); setTimeout(() => {document.getElementById("bread2").classList.toggle("hide")}, 2000); setTimeout(() => {document.getElementById('nome').value=''; document.getElementById('senha').value='';},)}
     if(nome === "" && senha !== ""){breadCrumb3(); setTimeout(() => {document.getElementById("bread3").classList.toggle("hide")}, 2000); setTimeout(() => {document.getElementById('nome').value=''; document.getElementById('senha').value='';},)} 
-    if(nome !== "" && senha !== ""){breadCrumb4(); console.log("nome:" + nome, "senha:" + senha); setTimeout(() => {document.getElementById('nome').value=''; document.getElementById('senha').value='';},); setTimeout(() => {document.getElementById("bread4").classList.toggle("hide")}, 2000); setTimeout(() => {window.location.replace("index.html")},2500)}
+    if(nome == "admin" && senha == "1234"){breadCrumb4(); console.log("nome:" + nome, "senha:" + senha); setTimeout(() => {document.getElementById('nome').value=''; document.getElementById('senha').value='';},); setTimeout(() => {document.getElementById("bread4").classList.toggle("hide")}, 2000); setTimeout(() => {window.location.replace("index.html")},2500)}
+    if(nome !== "admin" && senha !== "1234"){breadCrumb1(); setTimeout(() => {document.getElementById("bread1").classList.toggle("hide")}, 2000); setTimeout(() => {document.getElementById('nome').value=''; document.getElementById('senha').value='';},)} 
 }
 
-function verificarEmail(){
+function verificar2(){
     let email = document.getElementById("email").value;
     let senha2 = document.getElementById("senha2").value;    
     if(email === "" && senha2 === ""){breadCrumb6(); setTimeout(() => {document.getElementById("bread6").classList.toggle("hide")}, 2000);} ;

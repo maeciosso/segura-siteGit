@@ -182,27 +182,6 @@ select{
 .tFooter{
     outline: none;
 }
-.comprar{
-    position: absolute;
-    z-index: 1;
-    width: 50%;
-    height: 500px;
-    background-color: #cecece;
-    left: 350px;
-    border-radius: 16px;
-    border: 2px solid black;
-} .comprar > h1{
-    margin-left: 1rem;
-} .comprar > input{
-    margin-left: 1rem;
-    width: 300px;
-    font-size: 25px;
-    border: 1px solid black;
-}
-.close{
-    width: 40px;
-    margin: .5rem;
-}
 
 
 
@@ -263,10 +242,10 @@ select{
 }
 #div{
     background: linear-gradient(#C3DFE0, #76a2a3);
-    height: 1800px;
+    height: fit-content;
 }#div2{
     background: linear-gradient(#4b7eca, #76a2a3);
-    height: 2500px;
+    height: fit-content;
 }
 #divTexto{
     font-size: large;
@@ -362,8 +341,4 @@ select{
 #planos2{
     display: flex;
     width: 100%;
-}
-#cvc{width: 70px;}
-#comprar3 > form > input{
-    margin-left: 2rem;
 }
