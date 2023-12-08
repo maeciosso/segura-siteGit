@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/media.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>login</title>
+    
 </head>
 <body>
   <nav>
@@ -40,7 +41,7 @@
 
         <div class="hide" id="bread1"><p>coloque seu nome e senha</p></div>
         <div class="hide" id="bread2"><p>coloque sua senha</p></div>
-        <div class="hide" id="bread3"><p>coloque seu nome/e-mail</p></div>
+        <div class="hide" id="bread3"><p>coloque seu nome</p></div>
         <div class="hide" id="bread4"><p>bem vindo</p></div>
         <div class="hide" id="bread5"><p>conta criada</p></div>
         <div class="hide" id="bread6"><p>coloque seu nome, <br> e-mail e senha</p></div>
@@ -72,12 +73,12 @@
           <br>
           <input required autocomplete="on" id="nome" name="form" type="text" placeholder="Seu nome">
           <br><br>
-          <input required autocomplete="on" id="email" name="form" type="email" placeholder="Seu e-mail">
-          <br><br>
           <input required min="4" id="senha2" name="form" type="password" placeholder="Sua senha">
           <button id="btn" type="button" onclick="visibilidade2()">
             <img src="img/eye.svg" class="eye">
           </button>
+          <br><br>
+          <input required autocomplete="on" id="email" name="form" type="email" placeholder="Seu e-mail">
           <br><br>
           <button type="button" onclick="verificar2()">Criar</button>
           <button id="in" type="button">Sign in</button>
@@ -87,7 +88,8 @@
         </form>
       </main>
 
-    <script src="js/index.js"></script>
-    <script src="js/form.js"></script>
+
+      <script src="js/index.js"></script>
+      <script src="js/form.js"></script>
 </body>
 </html>
