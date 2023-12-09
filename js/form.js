@@ -2,11 +2,10 @@
 function verificar(){
     let nome = document.getElementById("nome").value
     let senha = document.getElementById("senha").value
-    if(nome == "" && senha == ""){breadCrumb1(); setTimeout(() => {document.getElementById("bread1").classList.toggle("hide")}, 2000); setTimeout(() => {document.getElementById('nome').value=''; document.getElementById('senha').value='';},)} 
+    if(nome !== "admin" && senha !== "1234"){breadCrumb1(); setTimeout(() => {document.getElementById("bread1").classList.toggle("hide")}, 2000); setTimeout(() => {document.getElementById('nome').value=''; document.getElementById('senha').value='';},)}
     if(nome !== "" && senha == ""){breadCrumb2(); setTimeout(() => {document.getElementById("bread2").classList.toggle("hide")}, 2000); setTimeout(() => {document.getElementById('nome').value=''; document.getElementById('senha').value='';},)}
     if(nome === "" && senha !== ""){breadCrumb3(); setTimeout(() => {document.getElementById("bread3").classList.toggle("hide")}, 2000); setTimeout(() => {document.getElementById('nome').value=''; document.getElementById('senha').value='';},)} 
-    if(nome == "admin" && senha == "1234"){breadCrumb4(); console.log("nome:" + nome, "senha:" + senha); setTimeout(() => {document.getElementById('nome').value=''; document.getElementById('senha').value='';},); setTimeout(() => {document.getElementById("bread4").classList.toggle("hide")}, 2000); setTimeout(() => {window.location.replace("index.html")},2500)}
-    if(nome !== "admin" && senha !== "1234"){breadCrumb1(); setTimeout(() => {document.getElementById("bread1").classList.toggle("hide")}, 2000); setTimeout(() => {document.getElementById('nome').value=''; document.getElementById('senha').value='';},)} 
+    if(nome == "admin" && senha == "1234"){breadCrumb4(); console.log("nome:" + nome, "senha:" + senha); setTimeout(() => {document.getElementById('nome').value=''; document.getElementById('senha').value='';},); setTimeout(() => {document.getElementById("bread4").classList.toggle("hide")}, 2000); setTimeout(() => {window.location.replace("index.html")},2500)} 
 }
 
 function verificar2(){
