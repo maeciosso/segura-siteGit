@@ -39,12 +39,12 @@
 
     <main style="display: flex">
 
-        <div class="hide" id="bread1"><p>coloque seu nome e senha</p></div>
-        <div class="hide" id="bread2"><p>coloque sua senha</p></div>
-        <div class="hide" id="bread3"><p>coloque seu nome</p></div>
-        <div class="hide" id="bread4"><p>bem vindo</p></div>
-        <div class="hide" id="bread5"><p>conta criada</p></div>
-        <div class="hide" id="bread6"><p>coloque seu nome, <br> e-mail e senha</p></div>
+      <div id="bread1" class="bread hide">E-mail ou senha em branco</div>
+      <div id="bread2" class="bread hide">Nome em branco</div>
+      <div id="bread3" class="bread hide">Senha em branco</div>
+      <div id="bread4" class="bread hide">Acesso permitido</div>
+      <div id="bread5" class="bread hide">Credenciais válidas</div>
+      <div id="bread6" class="bread hide">Nome, e-mail e senha em branco</div>
 
         <form class="" id="form" autocomplete="on" name="form" action="./api/login.php" method="post">
           <h1>Sign in</h1>
@@ -87,7 +87,6 @@
           <br>
         </form>
       </main>
-
 
       <script src="js/form.js"></script>
 </body>

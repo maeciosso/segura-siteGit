@@ -1,3 +1,12 @@
+
+//menu
+const divMenu = document.getElementById("none")
+
+document.getElementById("menu").addEventListener('click', () => {
+    divMenu.classList.toggle("hide");
+})
+
+
 // login
 function verificar(){
     let nome = document.getElementById("nome").value
